@@ -1,0 +1,18 @@
+.MainTextBox {
+  flex-grow: 1;
+  margin: 15px 0px;
+  background: url('planet.jpg') #01040e no-repeat center center;
+  background-size: contain;
+  display: flex;
+}
+
+.MainTextBox-inner {
+  flex-grow: 1;
+  border: 3px solid #288dd2;
+  border-radius: 10px;
+  background-color: rgba(6, 37, 55, 0.92);
+  color: #fff;
+  padding: 10px;
+  font-family: 'Space Mono', monospace;
+  font-size: 15px;
+}

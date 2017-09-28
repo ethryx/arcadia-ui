@@ -1,0 +1,36 @@
+.VitalBar {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.VitalBar-circle {
+  z-index: 2;
+  position: absolute;
+  background: url('circle.png') no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.VitalBar-bar-middle {
+  background: url('bar-middle.png') repeat-x;
+  background-size: contain;
+  height: 40px;
+  position: absolute;
+  top: 5px;
+  left: 25px;
+  right: 43px;
+  z-index: 1;
+}
+
+.VitalBar-bar-right {
+  position: absolute;
+  background: url('bar-right.png') no-repeat;
+  background-size: contain;
+  top: 5px;
+  right: 13px;
+  width: 30px;
+  height: 40px;
+}
